@@ -3,7 +3,7 @@
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { products, formatMoney } from "../page";
+import { products, formatMoney } from "../products";
 
 function CheckoutForm(){
  const params=useSearchParams(); const market=params.get("market")==="KR"?"KR":"UZ";
